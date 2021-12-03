@@ -1,0 +1,50 @@
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 28, 28);
+    color: rgb(255, 255, 255);
+    margin: 0.3rem;
+    border-radius: 15px;
+    height: 70%;
+    width: 60%;
+    position: relative;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.card-icon {
+    position: absolute;
+    top: 10%;
+    left: -25%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    padding:  1rem;
+}
+
+.card-icon svg {
+    font-size: 8rem;
+}
+
+.infoCard-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:center;
+    padding-right: 1rem;
+    height: 100%;
+}
+
+.infoCard-info h3{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.infoCard-info span {
+    font-size:2.5rem;
+    font-weight: 100;
+}

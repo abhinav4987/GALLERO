@@ -1,3 +1,5 @@
+const nodemon = require("nodemon");
+
 const sendToken = (user, statusCode, response) => {
     const token = user.getJWTToken();
 
@@ -7,6 +9,8 @@ const sendToken = (user, statusCode, response) => {
         Date.now() + 5 * 24 * 60 * 60 * 1000
         ),
         httpOnly: true,
+        sameSite: 'none',
+        secure: true
     };  
 
     

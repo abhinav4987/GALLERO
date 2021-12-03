@@ -1,0 +1,51 @@
+.modalHead {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white !important;
+    margin-left: 2rem !important;
+    margin-bottom: 2rem !important;
+
+}
+
+.modal-formField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1rem;
+}
+
+.modal-formField input,
+.modal-formField textArea {
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); 
+    font-size: 1em;
+
+}
+
+.modal-formField textArea {
+    font-family:'Segoe UI', 'Roboto', 'Oxygen','Ubuntu';
+    
+
+}
+
+.modal-formField > span {
+    
+    color: white;
+}
+
+.modalButton {
+    margin: 0rem 1rem;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: rgb(41, 155, 201);
+    border-radius: 15px;
+}

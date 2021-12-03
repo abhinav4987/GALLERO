@@ -1,0 +1,80 @@
+.authPage {
+    background-image: url(../../images/dillon-kydd-7o7m1xCEiY8-unsplash.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm {
+    width: 70%;
+    height: 80%;
+    /* background-color: white; */
+
+    display: flex;
+    border-radius:15px;
+    overflow: hidden;
+}
+
+.authForm__left,
+.authForm__right {
+    flex: 1;
+}
+
+
+.authForm__left {
+    background-image: url(../../images/thierry-lemaitre-ggcKoVbUxg0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.authForm__left span{
+    font-size:4rem;
+    font-weight: 700;
+    padding: 1rem
+}
+
+
+.authForm__right {
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.authForm__right > span {
+    font-size: 3rem;
+    font-weight: 550;
+    padding: 1rem 2rem;
+}
+
+.authForm__right > form {
+    width: 85%;
+}
+
+.formField > span {
+    color: white;
+}
+.authForm__right > button {
+    margin: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    width: 85%;
+    background-color: rgb(173, 77, 173);
+    border-radius: 15px;
+    
+}
+
+

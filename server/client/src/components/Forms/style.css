@@ -1,0 +1,60 @@
+form {
+    width: 85%;
+}
+.formField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1rem;
+}
+
+.formField input {
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); 
+    font-size: 1em;
+
+}
+
+.formField > span {
+    
+    color: white;
+}
+
+form > button {
+    margin: 0rem 1rem;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: rgb(41, 155, 201);
+    border-radius: 15px;
+}
+
+.errorMessage {
+    display: flex;
+    align-items: center;
+    color: red;
+}
+
+.responseError {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: red;
+    color: white;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

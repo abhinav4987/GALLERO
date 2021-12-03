@@ -1,0 +1,107 @@
+.DashBoardNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 1px solid rgb(82, 81, 81);
+    z-index: 10;
+}
+
+.brandRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.brandRow div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandRow svg {
+    font-size: 2rem;
+}
+.brandRow div svg {
+
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+
+
+.dashNav_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+
+.dashNav_body span {
+    color: rgb(179, 176, 176);
+    font-size:0.85rem;
+    padding-left: 1.8rem;
+    /* width: 80%; */
+    /* text-align: c; */
+}
+
+
+.dashNav_body > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.dashNav_body > ul > a {
+
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 1.3rem;
+    margin: 1rem auto;
+    cursor: pointer;;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.4s;
+    background-color: rgb(70, 69, 69);
+    padding: 1rem auto;
+    border-radius: 15px;
+    padding: .5rem 0;
+}
+
+.dashNav_body > ul > a:hover {
+
+    background-color: white;
+    color:black;
+    
+}
+
+/* .dashNav_body ul .selected {
+    background-color: white;
+    color:black;
+    padding: 1rem auto;
+    border-radius: 15px;
+    padding: .5rem 0;
+    width: 80%;
+} */
+
+.dashNav_body ul li svg {
+    margin: auto 0.5rem;
+    font-size: 1.1rem;
+}

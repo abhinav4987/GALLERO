@@ -1,0 +1,70 @@
+.collectionPage {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: calc(100% - 300px);
+    background-color: rgb(43, 42, 42);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CollectionPageHeader {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.privateDemo {
+    color: white;
+    /* width: 100%; */
+    font-size:2rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.loader {
+    position: absolute !important;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    /* margin: 10rem 20rem; */
+}
+
+.albumSearch {
+
+    position: absolute !important;
+    top: 2rem !important;
+    right: 2rem !important;
+
+    width: 14rem;
+    border-radius:5px;
+    border: none !important;
+    outline: none !important;
+    background-color: rgb(105, 104, 104);
+    font-size: 1rem;
+
+}
+
+.addAlbum {
+    position: absolute !important;
+    top: 2rem !important;
+    right: 18rem !important;
+    background-color: rgb(105, 104, 104) !important;
+}
+
+.albumDisplay {
+    /* position: relative !important; */
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;     */
+    padding: 1rem;
+    /* flex-wrap: wrap; */
+}
+
+.imageItem {
+    cursor: pointer;
+}

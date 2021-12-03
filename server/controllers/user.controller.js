@@ -7,7 +7,14 @@ const fs = require('fs')
 const registerUser = catchAsyncErrors(async (request, response, next) => {
 
     const { name, email, password} = request.body;
-
+    const isPresent = await User.findOne({ email });
+    if (isPresent) {
+        return  response.status(401).json({
+            message: "User already registerred",
+        })
+        
+    }
+    
     const user = await User.create({
         name,
         email,

@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(43, 42, 42);
+}
+
+.header span {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.header span,
+.header button {
+    margin: 0.3rem;
+} 
+
+

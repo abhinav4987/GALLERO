@@ -1,0 +1,95 @@
+.AlbumPage {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: calc(100% - 300px);
+    background-color: rgb(43, 42, 42);
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.photosDisplay {
+    flex: 0.7;
+    border-right: 1px solid rgb(94, 94, 94);
+    height: inherit;
+    position: relative;
+}
+
+.reviewsDisplay {
+    flex: 0.3;
+    border-left: 1px solid rgb(94, 94, 94);
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.reviewsHeader {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin: 1rem 1rem;
+}
+
+.addReviewText {
+    border-radius:5px;
+    border: none !important;
+    outline: none !important;
+    background-color: rgb(105, 104, 104);
+    font-size: 1rem;
+    color: white !important;
+    width: 90%;
+    margin-left: 1rem !important;
+}
+
+.addReviewButton {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.432) !important;
+    margin: 0.5rem 1rem !important;
+}
+
+.allReviewsDisplay {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+
+}
+
+.addPhoto {
+    position: absolute !important;
+    top: 1rem !important;
+    right: 2rem !important;
+    background-color: rgb(105, 104, 104) !important;
+}
+
+
+.deleteAlbum {
+    position: absolute !important;
+    top: 1rem !important;
+    right: 6rem !important;
+    background-color: rgb(105, 104, 104) !important;
+}
+.albumDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.albumDetails > span:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+.albumDetails > span:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    color: rgb(136, 136, 136);
+}
